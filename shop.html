@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Game - Shop</title>
+    <style>
+        body {
+            background-image: url('shopb.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        header, footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s, transform 0.2s;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700; /* Gold color on hover */
+            transform: scale(1.1);
+            text-decoration: underline;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s, transform 0.2s;
+        }
+
+        ul li a:hover {
+            color: #FFD700;
+            transform: scale(1.1);
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="features.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Shop Now</h1>
+        <p>Buy your Shoe Game products from one of our trusted partners:</p>
+        <ul>
+            <li><a href="https://www.amazon.com" target="_blank">Amazon</a></li>
+            <li><a href="https://www.walmart.com" target="_blank">Walmart</a></li>
+            <li><a href="https://www.target.com" target="_blank">Target</a></li>
+        </ul>
+    </main>
+</body>
+</html>
